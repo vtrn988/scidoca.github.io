@@ -1,0 +1,167 @@
+/*
+YUI 3.5.0 (build 5089)
+Copyright 2012 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+h1,h2{
+	color:#4B0082/*#ff642e*/;
+}
+h2{
+	border-bottom:solid 1px #4B0082/*#ff642e*/;
+}
+a{
+	color:#FFA500/*#6699ff*/;
+	text-decoration:none;	
+}
+a:hover{
+	text-decoration:underline;
+}
+.inner{
+	margin:auto; /* center in viewport */
+	width: 850px; /* fix page width */
+	border:solid 1px #cbcbcb;
+	border-top:none;
+}
+.wrapper{
+	border-top:solid 12px #4B0082/*#ff642e*/;
+	width: 800px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.block{
+	margin-bottom:3em;
+}
+.block dl{
+	margin-left:0;	
+}
+.block dt{
+	font-weight:bold;
+	
+}
+.iconNew{
+	display:inline-block;
+	background-image: url(images/new.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-indent:-9999em;
+	width:25px;
+	margin-right:4px;
+
+}
+.yui3-g .content{
+    /*border: 1px solid #ccc;*/
+    margin-right: 10px; /* gutter between columns */
+}
+.main .content{
+	/*margin-left:-10px;*/
+	position:relative;
+	padding-right:6px;
+	z-index:10;
+	_margin-left:0px;
+}
+.content h1{
+	font-size:2.5em;
+	
+}
+
+.navi{ padding:16px;}
+.navi a{
+	display:block;
+	background-image: url(images/icon01n.png);
+	background-repeat: no-repeat;
+	background-position: left 8px;
+	padding-left:10px;
+	font-size:12px;
+	line-height:24px;
+	color:#6d6e71;
+	text-decoration:none;
+}
+.navi a:hover{ color:#FFF;background-image: url(images/icon01.png);}
+.navi a:focus {
+   outline:none;
+}
+
+.navi li:hover{
+	/* 通常 */
+	background:linear-gradient(#ff8c5d, #de421c);
+	/* webkit用 */
+	background:-webkit-gradient(linear, left top, left bottom, from(#ff8c5d), to(#de421c));
+	/* mozilla用 */
+	background:-moz-linear-gradient(top, #ff8c5d, #de421c);
+	color:#FFF;
+
+}
+.navi ul{border-top:solid 1px #a4a4a4; margin:0; margin-bottom:1em;}
+.navi li{
+	/* 通常 */
+	background:linear-gradient(#f3f3f3, #b9b9b9);
+	/* webkit用 */
+	background:-webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#b9b9b9));
+	/* mozilla用 */
+	background:-moz-linear-gradient(top, #f3f3f3, #b9b9b9);
+	color:#FFF;
+	padding:3px 8px;
+	border:solid 1px #a4a4a4;
+	border-top:none;
+}
+
+
+.navi li:hover {
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ff8c5d', endColorstr='#de421c');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ff8c5d', endColorstr='#de421c')";
+	zoom: 1;
+}
+
+.navi li {
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f3f3f3', endColorstr='#b9b9b9');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f3f3f3', endColorstr='#b9b9b9')";
+	zoom: 1;
+}
+/*
+#twitterIcon{
+	background-image: url(images/twitter.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-right:20px;
+}
+#twitterIcon span{
+	text-indent:-9999em;
+	overflow:hidden;
+}
+
+*/
+
+#New ul{
+	margin-left:0;
+	list-style:none;
+}
+
+.blockTwitter .txtLink img{
+	margin-bottom:-2px;
+	
+}
+.blockTwitter{
+	width:200px;
+	margin:auto;
+	
+}
+.logo h1{
+	text-align:center;
+	margin-bottom:0;
+/*	text-indent:-9999em;
+	width:200px;
+	height:200px;
+	border:solid 1px #cbcbcb;
+	background-color:#dfdfdf;
+	margin:auto;
+	margin-top:10px;*/
+	
+}
+.pageTop{
+	text-align:right;	
+}
+
